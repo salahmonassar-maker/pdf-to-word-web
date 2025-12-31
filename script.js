@@ -12,7 +12,7 @@ function uploadFile() {
 
     status.innerHTML = "⏳ جاري التحويل...";
 
-    fetch("https://pdf-to-word-server.onrender.com/convert", {
+    fetch("https://pdf-to-word-backend-1-3pf9.onrender.com /convert", {
         method: "POST",
         body: formData
     })
